@@ -1,8 +1,8 @@
 cask 'tweetdeck-player' do
-  version '2.30'
-  sha256 'c8251e5e3f6df03221a19dfcbac73dfa705adfcc9eedf1fc95c7411a228b1b41'
+  version '2.34'
+  sha256 'bf963b8d26b61dab6a3eb71c8051233ee65df4e16ffccb48492ea9cad75a9f94'
 
-  url 'https://github.com/sokcuri/TweetDeckPlayer/releases/download/2.30/TweetDeckPlayer-v2.30-darwin-x64.zip'
+  url "https://github.com/sokcuri/TweetDeckPlayer/releases/download/#{version}/TweetDeckPlayer-v#{version}-darwin-x64.zip"
   name 'TweetDeckPlayer'
   homepage 'https://github.com/sokcuri/TweetDeckPlayer'
 
